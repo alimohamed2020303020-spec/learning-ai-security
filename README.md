@@ -17,8 +17,11 @@ chat app that connects to a weather tool (MCP).
 | [Level 2](agent-breaker/level-2.md) | Adept | Leak the full chat history | 100/100 |
 | [Level 3](agent-breaker/level-3.md) | Master | Leak the full chat history (hardened app) | 98/100 |
 | [Level 4](agent-breaker/level-4.md) | Expert | Leak the full chat history (extra filter) | 98/100 |
-| Each file has the objective, my approach, what I
-learned, and ideas for defense.|
+
+Each file has the objective, my approach, what I
+learned, and ideas for defense.
+
+## Main lessons so far
 
 ## Main lessons so far
 - **Tool poisoning:** text inside a tool description can
@@ -30,7 +33,7 @@ learned, and ideas for defense.|
 - **Defense needs layers outside the model:** least
   privilege, validating tool calls in code, and treating
   third-party tool descriptions as untrusted.
-Filters that block instructions can miss examples that teach the same behavior.
+- **Filters that block instructions can miss examples that teach the same behavior.
 
 ## Note
 All attacks here were done inside Lakera's Agent Breaker,
