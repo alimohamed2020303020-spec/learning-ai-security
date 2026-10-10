@@ -22,8 +22,6 @@ Each file has the objective, my approach, what I
 learned, and ideas for defense.
 
 ## Main lessons so far
-
-## Main lessons so far
 - **Tool poisoning:** text inside a tool description can
   work like a command for the model.
 - **Read the objective again at every level.** It can
