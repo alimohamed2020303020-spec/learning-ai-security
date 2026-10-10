@@ -33,7 +33,7 @@ learned, and ideas for defense.
 - **Defense needs layers outside the model:** least
   privilege, validating tool calls in code, and treating
   third-party tool descriptions as untrusted.
-- **Filters that block instructions can miss examples that teach the same behavior.
+- **Filters that block instructions can miss examples that teach the same behavior.**
 
 ## Note
 All attacks here were done inside Lakera's Agent Breaker,
